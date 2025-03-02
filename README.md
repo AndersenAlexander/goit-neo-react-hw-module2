@@ -63,3 +63,38 @@ This repository contains a React-based feedback widget application built as part
     │           └── Notification.module.css  // Styles for the Notification component
     ├── package.json
     └── vite.config.js
+  public/: Contains static assets (e.g., bg.mp4 and index.html).
+  src/: Contains all the React source code:
+    index.css: Global CSS styles to ensure the entire app is centered and styled uniformly.
+    main.jsx: The entry point that bootstraps the React app.
+    App.jsx: The main component that handles application logic (state, local storage, conditional rendering) and renders the child components.
+    components/: Each component resides in its own folder along with its corresponding CSS Module file.
+
+## Design
+
+![Screenshot 2025-03-03 001434](https://github.com/user-attachments/assets/ca663996-06f9-4347-a90e-189c1e3967f6)
+
+![Screenshot 2025-03-03 001415](https://github.com/user-attachments/assets/5488088c-01e6-4a4b-b6dd-a31066bfdb7e)
+
+## Usage
+  Submit Feedback: Click the “Good”, “Neutral”, or “Bad” buttons to submit your feedback. The statistics will update immediately.
+  Reset Feedback: Once feedback is provided, a “Reset” button appears allowing you to clear all the feedback.
+  Persistent State: Refreshing the page retains the feedback data due to local storage integration.
+  Background Video: The video plays in the background, providing an engaging visual experience.
+  
+## License
+This project is licensed under the MIT License.
+
+## Contributing
+Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request. If you encounter any issues or have suggestions, please open an issue on GitHub.
+
+
+This detailed description, along with the project structure (platform map), should provide a comprehensive overview of your project for anyone visiting your GitHub repository.
+
+
+
+
+
+
+
+
